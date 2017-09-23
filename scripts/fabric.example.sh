@@ -1,1 +1,1 @@
-./Vendor/Fabric/Fabric.framework/run <# fabric identifier #>
+"${PODS_ROOT}/Fabric/run" <# fabric identifier #>

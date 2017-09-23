@@ -6,6 +6,7 @@
 //  Copyright © 2017年 UROURO. All rights reserved.
 //
 
+import IoniconsKit
 import UIKit
 
 protocol WebBrowserTitleViewDelegate: class {

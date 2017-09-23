@@ -41,19 +41,8 @@
 		372BA9831F64509600C1815E /* URLBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372BA95C1F64509600C1815E /* URLBlocker.swift */; };
 		372BA9841F64509600C1815E /* UserDefaultsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372BA95D1F64509600C1815E /* UserDefaultsHandler.swift */; };
 		372BA9851F64509600C1815E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 372BA95E1F64509600C1815E /* Info.plist */; };
-		373F117D1EFBB4D500767AFA /* IoniconsKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3756D1811EFBB2D600516F48 /* IoniconsKit.swift */; };
-		373F117E1EFBB4D800767AFA /* Ionicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3756D17F1EFBB2D600516F48 /* Ionicons.swift */; };
-		3756D1871EFBB37300516F48 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3756D17B1EFBB2D600516F48 /* ionicons.ttf */; };
 		37A5BD901F2211CA0047C753 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A5BD8F1F2211CA0047C753 /* Reachability.framework */; };
 		37A5BD911F2211CA0047C753 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37A5BD8F1F2211CA0047C753 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		37CC13A41F65423700760622 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC13971F65423700760622 /* GoogleMobileAds.framework */; };
-		37CC13A51F65423700760622 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC13991F65423700760622 /* FirebaseAnalytics.framework */; };
-		37CC13A61F65423700760622 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC139A1F65423700760622 /* FirebaseCore.framework */; };
-		37CC13A71F65423700760622 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC139B1F65423700760622 /* FirebaseCoreDiagnostics.framework */; };
-		37CC13A81F65423700760622 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC139C1F65423700760622 /* FirebaseInstanceID.framework */; };
-		37CC13A91F65423700760622 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC139D1F65423700760622 /* FirebaseNanoPB.framework */; };
-		37CC13AA1F65423700760622 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC139E1F65423700760622 /* GoogleToolboxForMac.framework */; };
-		37CC13AB1F65423700760622 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC139F1F65423700760622 /* nanopb.framework */; };
 		37CC13AF1F6543AA00760622 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC13AE1F6543AA00760622 /* GLKit.framework */; };
 		37CC13B11F6543C400760622 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC13B01F6543C400760622 /* MessageUI.framework */; };
 		37CC13B31F6543CC00760622 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC13B21F6543CC00760622 /* CoreMotion.framework */; };
@@ -64,8 +53,6 @@
 		37CC13BD1F6544C400760622 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC13BC1F6544C400760622 /* libz.tbd */; };
 		37CC13BF1F6544E600760622 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC13BE1F6544E600760622 /* AdSupport.framework */; };
 		37CC13C11F65455C00760622 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37CC13C01F65455C00760622 /* GoogleService-Info.plist */; };
-		37CC13FC1F65514400760622 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC13FA1F65514400760622 /* Crashlytics.framework */; };
-		37CC13FD1F65514400760622 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC13FB1F65514400760622 /* Fabric.framework */; };
 		37CC14061F655F4500760622 /* EasyTipView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC14051F655F4500760622 /* EasyTipView.framework */; };
 		37CC14071F655F4500760622 /* EasyTipView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37CC14051F655F4500760622 /* EasyTipView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		37D06C1B1F52E05C00046394 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D06C1A1F52E05C00046394 /* Zip.framework */; };
@@ -176,25 +163,7 @@
 		372BA95E1F64509600C1815E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		372BA95F1F64509600C1815E /* Piw.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Piw.entitlements; sourceTree = "<group>"; };
 		372BA98B1F64528600C1815E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		3756D1761EFBB2D600516F48 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		3756D17B1EFBB2D600516F48 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
-		3756D17C1EFBB2D600516F48 /* ionicons.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ionicons.txt; sourceTree = "<group>"; };
-		3756D17F1EFBB2D600516F48 /* Ionicons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ionicons.swift; sourceTree = "<group>"; };
-		3756D1811EFBB2D600516F48 /* IoniconsKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoniconsKit.swift; sourceTree = "<group>"; };
-		3756D1841EFBB2D600516F48 /* IoniconsKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = IoniconsKit.podspec; sourceTree = "<group>"; };
-		3756D1851EFBB2D600516F48 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3756D1861EFBB2D600516F48 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		37A5BD8F1F2211CA0047C753 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
-		37CC13971F65423700760622 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		37CC13991F65423700760622 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		37CC139A1F65423700760622 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
-		37CC139B1F65423700760622 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		37CC139C1F65423700760622 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		37CC139D1F65423700760622 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
-		37CC139E1F65423700760622 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
-		37CC139F1F65423700760622 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
-		37CC13A01F65423700760622 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
-		37CC13A11F65423700760622 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		37CC13AE1F6543AA00760622 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		37CC13B01F6543C400760622 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		37CC13B21F6543CC00760622 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
@@ -205,8 +174,6 @@
 		37CC13BC1F6544C400760622 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		37CC13BE1F6544E600760622 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		37CC13C01F65455C00760622 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Piw/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		37CC13FA1F65514400760622 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		37CC13FB1F65514400760622 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		37CC14031F655F3400760622 /* EasyTipView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyTipView.framework; path = Carthage/Build/iOS/EasyTipView.framework; sourceTree = "<group>"; };
 		37CC14051F655F4500760622 /* EasyTipView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyTipView.framework; path = Carthage/Build/iOS/EasyTipView.framework; sourceTree = "<group>"; };
 		37D06C1A1F52E05C00046394 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
@@ -241,20 +208,13 @@
 				37CC13B51F6543D200760622 /* CoreText.framework in Frameworks */,
 				37CC13B31F6543CC00760622 /* CoreMotion.framework in Frameworks */,
 				37CC13B11F6543C400760622 /* MessageUI.framework in Frameworks */,
-				37CC13FC1F65514400760622 /* Crashlytics.framework in Frameworks */,
 				37CC13AF1F6543AA00760622 /* GLKit.framework in Frameworks */,
 				37F745801EF3B74300D21EE5 /* Realm.framework in Frameworks */,
-				37CC13AA1F65423700760622 /* GoogleToolboxForMac.framework in Frameworks */,
-				37CC13A51F65423700760622 /* FirebaseAnalytics.framework in Frameworks */,
-				37CC13A91F65423700760622 /* FirebaseNanoPB.framework in Frameworks */,
 				37F7458A1EF3B74400D21EE5 /* SwiftyBeaver.framework in Frameworks */,
-				37CC13A81F65423700760622 /* FirebaseInstanceID.framework in Frameworks */,
 				37F745901EF3BB7600D21EE5 /* RxCocoa.framework in Frameworks */,
 				37F745781EF3B74300D21EE5 /* ImageViewer.framework in Frameworks */,
 				37CC14061F655F4500760622 /* EasyTipView.framework in Frameworks */,
 				37ED33221F178E110012FB40 /* NativePopup.framework in Frameworks */,
-				37CC13AB1F65423700760622 /* nanopb.framework in Frameworks */,
-				37CC13FD1F65514400760622 /* Fabric.framework in Frameworks */,
 				37F745821EF3B74300D21EE5 /* RealmSwift.framework in Frameworks */,
 				37F745861EF3B74400D21EE5 /* RxWebKit.framework in Frameworks */,
 				37A5BD901F2211CA0047C753 /* Reachability.framework in Frameworks */,
@@ -264,9 +224,6 @@
 				37D06C1B1F52E05C00046394 /* Zip.framework in Frameworks */,
 				37F7458C1EF3B74400D21EE5 /* TinyConstraints.framework in Frameworks */,
 				37F7457E1EF3B74300D21EE5 /* MBProgressHUD.framework in Frameworks */,
-				37CC13A41F65423700760622 /* GoogleMobileAds.framework in Frameworks */,
-				37CC13A71F65423700760622 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				37CC13A61F65423700760622 /* FirebaseCore.framework in Frameworks */,
 				37F7457A1EF3B74300D21EE5 /* Kanna.framework in Frameworks */,
 				9C6F2B551B9F7623DBBA417F /* Pods_Piw.framework in Frameworks */,
 			);
@@ -383,102 +340,10 @@
 			name = UserInterfaces;
 			sourceTree = "<group>";
 		};
-		3756D1741EFBB2D600516F48 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				37CC13F91F65514400760622 /* Fabric */,
-				37CC13951F65423700760622 /* Firebase */,
-				3756D1751EFBB2D600516F48 /* IoniconsKit-master */,
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
-		3756D1751EFBB2D600516F48 /* IoniconsKit-master */ = {
-			isa = PBXGroup;
-			children = (
-				3756D1761EFBB2D600516F48 /* .gitignore */,
-				3756D1771EFBB2D600516F48 /* IoniconsKit */,
-				3756D1841EFBB2D600516F48 /* IoniconsKit.podspec */,
-				3756D1851EFBB2D600516F48 /* LICENSE */,
-				3756D1861EFBB2D600516F48 /* README.md */,
-			);
-			path = "IoniconsKit-master";
-			sourceTree = "<group>";
-		};
-		3756D1771EFBB2D600516F48 /* IoniconsKit */ = {
-			isa = PBXGroup;
-			children = (
-				3756D1781EFBB2D600516F48 /* Assets */,
-				3756D17D1EFBB2D600516F48 /* Classes */,
-			);
-			path = IoniconsKit;
-			sourceTree = "<group>";
-		};
-		3756D1781EFBB2D600516F48 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				3756D17B1EFBB2D600516F48 /* ionicons.ttf */,
-				3756D17C1EFBB2D600516F48 /* ionicons.txt */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		3756D17D1EFBB2D600516F48 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3756D17F1EFBB2D600516F48 /* Ionicons.swift */,
-				3756D1811EFBB2D600516F48 /* IoniconsKit.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		37CC13951F65423700760622 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				37CC13961F65423700760622 /* AdMob */,
-				37CC13981F65423700760622 /* Analytics */,
-				37CC13A01F65423700760622 /* Firebase.h */,
-				37CC13A11F65423700760622 /* module.modulemap */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		37CC13961F65423700760622 /* AdMob */ = {
-			isa = PBXGroup;
-			children = (
-				37CC13971F65423700760622 /* GoogleMobileAds.framework */,
-			);
-			path = AdMob;
-			sourceTree = "<group>";
-		};
-		37CC13981F65423700760622 /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-				37CC13991F65423700760622 /* FirebaseAnalytics.framework */,
-				37CC139A1F65423700760622 /* FirebaseCore.framework */,
-				37CC139B1F65423700760622 /* FirebaseCoreDiagnostics.framework */,
-				37CC139C1F65423700760622 /* FirebaseInstanceID.framework */,
-				37CC139D1F65423700760622 /* FirebaseNanoPB.framework */,
-				37CC139E1F65423700760622 /* GoogleToolboxForMac.framework */,
-				37CC139F1F65423700760622 /* nanopb.framework */,
-			);
-			path = Analytics;
-			sourceTree = "<group>";
-		};
-		37CC13F91F65514400760622 /* Fabric */ = {
-			isa = PBXGroup;
-			children = (
-				37CC13FA1F65514400760622 /* Crashlytics.framework */,
-				37CC13FB1F65514400760622 /* Fabric.framework */,
-			);
-			path = Fabric;
-			sourceTree = "<group>";
-		};
 		37D6D89D1EE84EBF00767958 = {
 			isa = PBXGroup;
 			children = (
 				372BA92A1F64509600C1815E /* Piw */,
-				3756D1741EFBB2D600516F48 /* Vendor */,
 				37D6D8A71EE84EBF00767958 /* Products */,
 				37D6D8C61EE8539800767958 /* Frameworks */,
 				0EBAD8185BECB8DBAFA75534 /* Pods */,
@@ -604,7 +469,6 @@
 			files = (
 				37CC13C11F65455C00760622 /* GoogleService-Info.plist in Resources */,
 				372BA9651F64509600C1815E /* GalleryHeaderView.xib in Resources */,
-				3756D1871EFBB37300516F48 /* ionicons.ttf in Resources */,
 				372BA96A1F64509600C1815E /* WebBrowserTitleView.xib in Resources */,
 				372BA9641F64509600C1815E /* GalleryFooterView.xib in Resources */,
 				372BA96B1F64509600C1815E /* BlackList.txt in Resources */,
@@ -711,9 +575,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Piw/Pods-Piw-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IoniconsKit/IoniconsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IoniconsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -748,7 +619,6 @@
 				372BA97F1F64509600C1815E /* Bookmark.swift in Sources */,
 				372BA9601F64509600C1815E /* AppConfig.swift in Sources */,
 				372BA9771F64509600C1815E /* PreviewViewController.swift in Sources */,
-				373F117E1EFBB4D800767AFA /* Ionicons.swift in Sources */,
 				372BA9701F64509600C1815E /* IgnoredListViewController.swift in Sources */,
 				372BA97C1F64509600C1815E /* UIAlert+App.swift in Sources */,
 				372BA9801F64509600C1815E /* IgnoreURL.swift in Sources */,
@@ -756,7 +626,6 @@
 				372BA9611F64509600C1815E /* AppDelegate.swift in Sources */,
 				372BA9751F64509600C1815E /* IgnoredListCell.swift in Sources */,
 				372BA9781F64509600C1815E /* SettingsViewController.swift in Sources */,
-				373F117D1EFBB4D500767AFA /* IoniconsKit.swift in Sources */,
 				372BA9761F64509600C1815E /* WebBrowserTitleView.swift in Sources */,
 				372BA9831F64509600C1815E /* URLBlocker.swift in Sources */,
 				372BA9841F64509600C1815E /* UserDefaultsHandler.swift in Sources */,
@@ -935,7 +804,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2D47C6BEB3E4D978B443A30 /* Pods-Piw.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Piw/Piw.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -948,11 +817,15 @@
 					"$(PROJECT_DIR)/Vendor/Firebase/Analytics",
 					"$(PROJECT_DIR)/Vendor/Fabric",
 				);
-				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = Piw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-lxml2",
 					"-ObjC",
 				);
@@ -969,7 +842,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E13BCB5F4ECDBFB4C86BC9F7 /* Pods-Piw.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Piw/Piw.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -982,11 +855,15 @@
 					"$(PROJECT_DIR)/Vendor/Firebase/Analytics",
 					"$(PROJECT_DIR)/Vendor/Fabric",
 				);
-				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = Piw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-lxml2",
 					"-ObjC",
 				);
