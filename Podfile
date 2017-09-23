@@ -8,4 +8,5 @@ target 'Piw' do
   pod 'Firebase/AdMob'
   pod 'Firebase/Core'
   pod 'IoniconsKit'
+  pod 'TUSafariActivity'
 end

@@ -12,6 +12,7 @@ import ImageViewer
 import Kingfisher
 import RealmSwift
 import RxSwift
+import TUSafariActivity
 import UIKit
 
 protocol PreviewDataSource: GalleryItemsDataSource {
@@ -127,9 +128,10 @@ class PreviewViewController: GalleryViewController {
                 .addDisposableTo(controller.disposeBag)
             footer.shareButton.rx.tap
                 .subscribe(onNext: {
-                    if let url = controller.url {
-                        controller.share(page: url)
+                    guard let item = controller.previewDataSource?.previewItem(at: controller.currentIndex) else {
+                        return
                     }
+                    controller.share(page: item.rawURL)
                 })
                 .addDisposableTo(controller.disposeBag)
         }
@@ -175,14 +177,20 @@ class PreviewViewController: GalleryViewController {
     }
 
     func share(page: URL) {
-        let action = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
-        action.addAction(UIAlertAction(title: "Safariで開く", style: .default, handler: { _ in
-            if UIApplication.shared.canOpenURL(page) {
-                UIApplication.shared.open(page, options: [:], completionHandler: nil)
-            }
-        }))
-        action.addAction(UIAlertAction(title: "キャンセル", style: .cancel, handler: nil))
-        present(action, animated: true, completion: nil)
+        let safariActivity = TUSafariActivity()
+        let activityController = UIActivityViewController(
+            activityItems: [page],
+            applicationActivities: [safariActivity])
+        activityController.excludedActivityTypes = [
+            .postToFacebook,
+            .postToTencentWeibo,
+            .postToFlickr,
+            .postToWeibo,
+            .postToVimeo,
+            .postToTwitter,
+            .saveToCameraRoll
+        ]
+        present(activityController, animated: true, completion: nil)
     }
 
 }
