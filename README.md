@@ -1,9 +1,8 @@
 Piw
 ===
 
-Web Browser iOS App for images
-
-<a href="https://itunes.apple.com/jp/app/piw/id1249209151?mt=8" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/ja-jp/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a>
+Web Browser iOS App for images  
+Download on the [App Store](https://itunes.apple.com/jp/app/piw/id1249209151?mt=8)
 
 ## Getting Started
 
