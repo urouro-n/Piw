@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dR2-3n-5gg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web Browser Controller-->
+        <scene sceneID="dT9-dB-OnW">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="lil-YF-grI" customClass="WebBrowserController" customModule="Pics" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qtr-Lq-iBn"/>
+                        <viewControllerLayoutGuide type="bottom" id="mIM-5X-uwq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="206-L6-PmU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i9U-Iq-6lG">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="qmY-2B-Cjt"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Back" id="LyU-Q0-Jkw"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bRB-DQ-9T7"/>
+                                    <barButtonItem title="Forward" id="ZlH-8u-IdZ"/>
+                                    <barButtonItem systemItem="flexibleSpace" id="7al-IW-mCT"/>
+                                    <barButtonItem title="Images" id="obW-YE-64q"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="L58-N4-oOs"/>
+                                    <barButtonItem title="Up" id="3Id-Dm-Xik"/>
+                                    <barButtonItem title="Down" id="Uqj-RX-GAi"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mIM-5X-uwq" firstAttribute="top" secondItem="i9U-Iq-6lG" secondAttribute="bottom" id="1xh-7B-DNT"/>
+                            <constraint firstAttribute="trailing" secondItem="i9U-Iq-6lG" secondAttribute="trailing" id="4Ir-xC-qBu"/>
+                            <constraint firstItem="i9U-Iq-6lG" firstAttribute="leading" secondItem="206-L6-PmU" secondAttribute="leading" id="JTa-r0-9U6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0AX-Ci-u4v"/>
+                    <connections>
+                        <outlet property="downloadButton" destination="obW-YE-64q" id="b0y-b6-PFs"/>
+                        <outlet property="goBackButton" destination="LyU-Q0-Jkw" id="pgM-NI-Pn5"/>
+                        <outlet property="goForwardButton" destination="ZlH-8u-IdZ" id="wjj-Zr-qVu"/>
+                        <outlet property="pageDownButton" destination="Uqj-RX-GAi" id="cIg-rT-epA"/>
+                        <outlet property="pageUpButton" destination="3Id-Dm-Xik" id="tDa-9Q-RyT"/>
+                        <outlet property="toolbar" destination="i9U-Iq-6lG" id="Hsb-Eo-EYG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aFv-Kc-J1K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1245.5999999999999" y="-147.07646176911544"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tcL-LD-4lE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dR2-3n-5gg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pih-de-Bpj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lil-YF-grI" kind="relationship" relationship="rootViewController" id="07s-rH-IYY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="icx-I3-5tv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="496.80000000000001" y="-141.67916041979012"/>
+        </scene>
+    </scenes>
+</document>

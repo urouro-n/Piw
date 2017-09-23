@@ -1,0 +1,14 @@
+github "ReactiveX/RxSwift" ~> 3.0
+github "roberthein/TinyConstraints"
+github "RxSwiftCommunity/RxWebKit"
+github "SwiftyBeaver/SwiftyBeaver"
+github "jdg/MBProgressHUD" ~> 1.0.0
+github "tid-kijyun/Kanna" ~> 2.1.0
+github "MailOnline/ImageViewer"
+github "onevcat/Kingfisher" ~> 3.0
+github "malcommac/SwiftDate" ~> 4.0
+github "realm/realm-cocoa"
+github "mono0926/NativePopup"
+github "ashleymills/Reachability.swift" ~> 3.0
+github "marmelroy/Zip"
+github "teodorpatras/EasyTipView"

@@ -1,0 +1,7 @@
+included:
+  - Piw
+excluded:
+  - Carthage
+force_cast: warning # implicitly
+force_try:
+  severity: warning
