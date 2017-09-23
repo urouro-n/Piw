@@ -34,5 +34,3 @@ Carthage/Checkouts
 Piw/BlackList.txt
 Piw/GoogleService-Info.plist
 Piw/AppConfig.swift
-Piw/Info.plist
-scripts/fabric.sh

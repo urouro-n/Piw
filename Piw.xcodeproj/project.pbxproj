@@ -127,6 +127,7 @@
 
 /* Begin PBXFileReference section */
 		0E070B76FF487E00C11BDBD3 /* Pods_Piw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Piw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E48E465B340E2E97D601D /* Pods-Piw.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piw.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-Piw/Pods-Piw.adhoc.xcconfig"; sourceTree = "<group>"; };
 		372BA92B1F64509600C1815E /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConfig.swift; path = ../AppConfig.swift; sourceTree = "<group>"; };
 		372BA92C1F64509600C1815E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		372BA92D1F64509600C1815E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -237,6 +238,7 @@
 			children = (
 				F2D47C6BEB3E4D978B443A30 /* Pods-Piw.debug.xcconfig */,
 				E13BCB5F4ECDBFB4C86BC9F7 /* Pods-Piw.release.xcconfig */,
+				302E48E465B340E2E97D601D /* Pods-Piw.adhoc.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -409,7 +411,6 @@
 				37F7458E1EF3B74400D21EE5 /* Embed Frameworks */,
 				37F745921EF3E68F00D21EE5 /* ShellScript */,
 				373EC1121F17A15D007879FF /* Embed App Extensions */,
-				37CC13F81F65511000760622 /* Run Script (Fabric) */,
 				5624D0879D98A66CB07248E0 /* [CP] Embed Pods Frameworks */,
 				4C7E8047FEC700CBE0534BAC /* [CP] Copy Pods Resources */,
 			);
@@ -496,20 +497,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		37CC13F81F65511000760622 /* Run Script (Fabric) */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script (Fabric)";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = ". scripts/fabric.sh";
 		};
 		37D6D8C91EE853A800767958 /* Run Script (Carthage) */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -752,7 +739,7 @@
 		};
 		378F69B31F76632C006EFAA5 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E13BCB5F4ECDBFB4C86BC9F7 /* Pods-Piw.release.xcconfig */;
+			baseConfigurationReference = 302E48E465B340E2E97D601D /* Pods-Piw.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

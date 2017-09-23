@@ -6,9 +6,7 @@
 //  Copyright © 2017 UROURO. All rights reserved.
 //
 
-import Crashlytics
 import EasyTipView
-import Fabric
 import FirebaseCore
 import GoogleMobileAds
 import SwiftyBeaver
@@ -29,7 +27,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let console = ConsoleDestination()
         log.addDestination(console)
 
-        setUpFabric()
         setUpAppearance()
         setUpRealm()
         setUpGoogleMobileAds()
@@ -92,10 +89,6 @@ fileprivate extension AppDelegate {
 
     func setUpGoogleMobileAds() {
         GADMobileAds.configure(withApplicationID: AppConfig.AdMob.applicationId)
-    }
-
-    func setUpFabric() {
-        Fabric.with([Crashlytics.self])
     }
 
     func setUpFirebase() {

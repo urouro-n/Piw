@@ -11,8 +11,6 @@ Download on the [App Store](https://itunes.apple.com/jp/app/piw/id1249209151?mt=
 ```
 $ cp Piw/BlackList.txt.example Piw/BlackList.txt
 $ cp Piw/AppConfig.example.swift Piw/AppConfig.swift
-$ cp Piw/Info.example.plist Piw/Info.plist
-$ cp scripts/fabric.example.sh scripts/fabric.sh
 ```
 
 #### Set up google services
